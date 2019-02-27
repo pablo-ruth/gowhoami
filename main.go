@@ -15,7 +15,7 @@ func main() {
 			fmt.Fprintf(w, "Failed to get hostname: %s", err)
 		}
 
-		fmt.Fprintf(w, "Welcome on %s !!! (version == %d)", hostname, version)
+		fmt.Fprintf(w, "Welcome on %s !!! version %d)", hostname, version)
 	})
 
 	fmt.Println("Listening on :3333")
